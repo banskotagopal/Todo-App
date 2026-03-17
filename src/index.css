@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: aliceblue;
+}
+
+h1{
+    margin-top: 3rem;
+    color: black;
+    text-shadow: 1px 1px 10px #fff;
+}
+
+.input-items{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1rem;
+    border: 1px solid white;
+    max-width: 300px;
+}
+
+.input-items form{
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.input-items form input{
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #111;
+    background-color: transparent;
+    border-radius: 9px;
+    color: aliceblue;
+}
+
+.input-items form .add{
+    width: 120px;
+    margin: 10px;
+    padding: 6px;
+    color: aliceblue;
+    cursor:pointer;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+}
+
+.input-items form .add:hover{
+    background-color: blueviolet;
+    box-shadow: 1px 1px 15px blueviolet;
+}
+
+h2{
+    margin: 40px;
+    color: greenyellow;
+    text-shadow: 1px 1px 20px rgb(220, 213, 200);
+}
+
+.name{
+    display: flex;
+    gap: 10px;
+}
+
+.tasks{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content:  space-around;
+    max-width: 400px;
+    border-radius: 1rem;
+    background-color: #333;
+    max-width: 800px ;
+
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.h3{
+    color: green;
+}
+
+.delete{
+    padding: 6px;
+    width: 70px;
+    border-radius: 8px;
+    cursor:pointer;
+    border: 1px solid red;
+    outline: none;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+.delete:hover{
+    background-color: red;
+    box-shadow: 1px 1px 15px red;
+}
