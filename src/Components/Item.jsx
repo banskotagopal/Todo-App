@@ -3,10 +3,11 @@ import { useState } from "react";
 function Item( {setCopyTask} )
 {
 
+ 
     const [taskName,taskNameSet] = useState("");
     const [taskDate,taskDateSet] = useState("");
     const [task,setTask] = useState([])
-
+    
     function Additem(e)
     {
         e.preventDefault();
@@ -19,7 +20,7 @@ function Item( {setCopyTask} )
        }
    const updatedTasks =(prev => [...prev, newTask])
 
-    setTask(updatedTasks)
+    setTask(updatedTasks) 
     setCopyTask(updatedTasks)
       taskNameSet("")
       taskDateSet("")

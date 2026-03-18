@@ -19,7 +19,8 @@ function App() {
     const copyDelete = [...copyTask]
     copyDelete.splice(index ,1)
     setCopyTask(copyDelete)
-    console.log(copyTask)
+
+    
   }
 
    return <div>
